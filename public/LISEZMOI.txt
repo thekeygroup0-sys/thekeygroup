@@ -1,0 +1,139 @@
+==============================================================
+  SITE THE KEY GROUP — MODE D'EMPLOI
+==============================================================
+
+CONTENU DU DOSSIER
+  index.html      Page d'accueil
+  categorie.html  Pages des catégories et résultats de recherche
+  produit.html    Fiche détaillée de chaque produit
+  produits.js     >>> LE SEUL FICHIER À MODIFIER <<<
+  style.css       Couleurs et mise en page
+  app.js          Fonctionnement du site (ne pas toucher)
+  images/         Le logo et toutes vos photos
+
+--------------------------------------------------------------
+1. METTRE EN LIGNE GRATUITEMENT (Netlify)
+--------------------------------------------------------------
+  1. Allez sur https://app.netlify.com/drop
+  2. Créez un compte gratuit (avec votre email ou Google).
+  3. Dézippez le fichier reçu, puis glissez le DOSSIER
+     « thekeygroup » entier sur la page Netlify.
+  4. Votre site est en ligne en 1 minute, à une adresse
+     du type https://xxxx.netlify.app
+  5. Dans Netlify : « Site configuration » > « Change site name »
+     pour obtenir par exemple https://thekeygroup.netlify.app
+     (si le nom est libre).
+
+  Pour mettre à jour le site plus tard : dans Netlify, ouvrez
+  votre site > onglet « Deploys » > glissez à nouveau le dossier
+  modifié dans la zone prévue.
+
+--------------------------------------------------------------
+2. AJOUTER VOS PHOTOS
+--------------------------------------------------------------
+  - Copiez vos photos dans le dossier « images ».
+  - Noms de fichiers SANS espaces ni accents :
+      bon : camion-howo-benne.jpg    mauvais : Camion HOWO bénne.jpg
+  - Format conseillé : JPG, environ 1200 x 900 pixels, moins de
+    300 Ko par photo (compressez-les sur https://squoosh.app).
+  - Dans produits.js, indiquez la photo du produit :
+      image: 'images/camion-howo-benne.jpg',
+    et ses photos supplémentaires :
+      images: ['images/howo-2.jpg', 'images/howo-3.jpg'],
+  - Grande photo de l'accueil : dans SITE, ligne imageAccueil.
+
+--------------------------------------------------------------
+3. MODIFIER OU AJOUTER UN PRODUIT
+--------------------------------------------------------------
+  Ouvrez produits.js avec le Bloc-notes (clic droit > Ouvrir avec).
+  Sur téléphone ou si vous préférez, envoyez-moi vos informations
+  et je mets le fichier à jour pour vous.
+
+  - Remplacez chaque texte entre crochets [ ] par la vraie valeur.
+  - Pour ajouter un produit : copiez un bloc complet, de { à },
+    collez-le à la suite et changez son « id » (il doit être unique).
+  - Pour supprimer un produit : effacez son bloc de { à }, inclus.
+  - Prix vide ('') = « Prix sur demande » s'affiche.
+  - vedette: true = le produit apparaît en premier sur l'accueil.
+
+  ATTENTION : dans la liste des produits, les textes sont entre
+  guillemets doubles " ". Gardez-les, ainsi que les virgules.
+  Un guillemet double à l'intérieur d'un texte s'écrit \"
+  Si le site s'affiche vide après une modification, c'est presque
+  toujours une virgule ou un guillemet oublié.
+
+--------------------------------------------------------------
+4. PAIEMENT EN LIGNE (facultatif)
+--------------------------------------------------------------
+  Par défaut, les clients commandent sur WhatsApp (+229 01 90 30 32 45).
+  Pour le paiement Mobile Money / carte : créez un compte marchand
+  FedaPay ou KKiaPay, générez un lien de paiement pour un produit,
+  et collez-le dans ce produit :
+      lienPaiement: 'https://...',
+  Un bouton « Payer en ligne » apparaît alors sur sa fiche.
+
+--------------------------------------------------------------
+5. PLUS TARD : UN VRAI NOM DE DOMAINE
+--------------------------------------------------------------
+  Si vous achetez thekeygroup.com ou .bj, ajoutez-le dans Netlify
+  (« Domain management »). Rien à refaire sur le site.
+
+--------------------------------------------------------------
+6. LES 4 ANIMATIONS (réglages dans produits.js, objet SITE)
+--------------------------------------------------------------
+  salon          Accueil : showroom voiture > camion > engin > intérieur
+                 interieur : photo de l'habitacle à afficher
+  voyage         Page Suivi : globe Chine > Ningbo > mer > Cotonou > pays
+  configurateur  Page Voitures : couleurs sur des photos de véhicules BLANCS
+                 vues360 : 24 à 36 photos prises tout autour du véhicule
+                 pour une vraie rotation à 360°
+  essai          Page Contact : route 3D en vue conducteur
+                 video : 'images/essai.mp4' pour une vraie vidéo filmée
+  Pour désactiver une animation : actif: false
+  Les animations 3D fonctionnent une fois le site en ligne (Cloudflare),
+  pas en ouvrant les fichiers directement depuis l'ordinateur.
+
+--------------------------------------------------------------
+7. LA 3D (three.js)
+--------------------------------------------------------------
+  Dossier models/ : suv.glb, camion.glb, engin.glb (modèles 3D).
+  Pour changer un modèle : remplacez le fichier .glb (même nom) ou
+  indiquez un autre fichier dans produits.js (salon.modeles3d,
+  configurateur.modele3d, essai.modeles).
+  Les crédits des modèles s'affichent en bas du site : ne pas les
+  retirer (condition de la licence CC BY).
+
+8. RÉFÉRENCEMENT GOOGLE
+   - Chaque secteur, catégorie et produit (hors vente en gros) a sa propre page fixe,
+     avec son titre et sa description pour Google : dossiers secteur/, categorie/, produit/.
+   - sitemap.xml (liste de toutes les pages) et robots.txt sont à la racine.
+   - Ces pages fixes sont une « photo » du catalogue : après avoir ajouté, supprimé ou renommé
+     beaucoup de produits, demandez à Claude de les régénérer (le site marche quand même entre-temps).
+   - À faire vous-même : Google Search Console (ajouter le site, envoyer sitemap.xml)
+     et Google Business Profile (fiche de la boutique à Kindonou).
+
+9. PAIEMENT PAR CARTE BANCAIRE (Visa, Mastercard) ET MOBILE MONEY
+   - Page paiement.html, et bouton « Payer par carte bancaire » sur chaque fiche produit.
+   - Réglage dans produits.js : paiement: { fournisseur: 'kkiapay', cle: '', sandbox: true }
+     1. Créez un compte marchand sur kkiapay.me (ou fedapay.com, alors fournisseur: 'fedapay')
+     2. Collez la clé PUBLIQUE dans cle (jamais la clé privée/secrète)
+     3. Testez avec sandbox: true, puis passez à sandbox: false pour encaisser pour de vrai
+   - Tant que cle est vide, la page propose de demander le lien de paiement sur WhatsApp.
+   - Vérifiez toujours le paiement dans votre tableau de bord KkiaPay/FedaPay avant de livrer.
+   - Les logos VISA, Mastercard, MTN MoMo, Moov Money et Cash sont cliquables.
+   - Chaque produit a une référence (ex. P42, W146 ; vente en gros : 186764) affichée sur sa fiche.
+     Le client la tape dans « Référence » : la page reconnaît le produit.
+   - L'argent arrive sur votre compte KkiaPay, puis vous le retirez (ou programmez le reversement)
+     vers votre MTN MoMo 01 90 30 32 45, Moov Money ou votre compte bancaire.
+
+10. PHOTOS DES PRODUITS (dossier images/lots)
+   - Pour rester sous la limite de 1000 fichiers de Cloudflare, les photos sont regroupées
+     en « planches » (plusieurs photos par fichier) dans images/lots. Le site affiche
+     automatiquement la bonne photo. Ne renommez pas ces fichiers.
+   - Les photos ne se chargent qu'au moment où le client fait défiler la page (site rapide).
+
+11. VIDÉOS (dossier videos)
+   - Les vidéos sont hébergées sur le site (fichiers .mp4) : aucun logo, aucun lien vers
+     TikTok ou YouTube. Elles s'enchaînent toutes seules dans « Nos vidéos ».
+   - Pour changer : mettez le fichier .mp4 dans le dossier videos et indiquez son nom dans
+     produits.js (videoAccueil, videos, PRESENTATIONS_VIDEOS, MODIFICATIONS.videos).
