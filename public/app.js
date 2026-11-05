@@ -149,7 +149,7 @@
     // planche de photos (plusieurs vues dans un seul fichier) : « fichier.jpg#0/3 »
     if (u && m) return '<span class="planche" role="img" aria-label="' + esc(alt) + '"><span data-bg="' + esc(u.replace(/#.*$/, '')) + '" style="--i:' + m[1] + ';--n:' + m[2] + '"></span></span>';
     if (u) return '<img src="' + esc(u) + '" alt="' + esc(alt) + '" loading="lazy">';
-    return '<div class="ph' + (clair ? ' ph-clair' : '') + '">' + svg(icone, 64, 1.3) + '<span>[PHOTO]</span></div>';
+    return '<div class="ph' + (clair ? ' ph-clair' : '') + '">' + svg(icone, 64, 1.3) + '<span>Photo sur demande</span></div>';
   }
   function messageCommande(p) {
     var mode = estCotonou(p) ? ' [disponible à Cotonou]' : (estCommande(p) ? ' [sur commande]' : '');
