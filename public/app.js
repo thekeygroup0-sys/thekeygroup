@@ -1142,5 +1142,12 @@
   brancherCarte();
   brancherPlanches();
   brancherVideosSuite();
+  // vidéos TikTok isolées (ex. « Avis clients ») : le lecteur se charge au clic sur la vignette
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.tt-vignette'); if (!b) return;
+    var el = b.closest('.tt-place'); if (!el || el.closest('.videos-suite')) return;
+    e.preventDefault();
+    el.innerHTML = '<iframe src="' + ttSrc(el.getAttribute('data-tt'), true, false) + '" title="' + (el.getAttribute('data-titre') || '') + '" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+  });
   promoInit();
 })();
