@@ -7185,7 +7185,13 @@ window.MODIFICATIONS = {
       "prix": "50 000"
     }
   ],
-  "videos": ["videos/v16.mp4"]
+  "videos": [
+    "https://www.youtube.com/shorts/RlawRaz1syo",
+    "https://www.youtube.com/shorts/x-z6xtTMbZU",
+    "https://www.youtube.com/shorts/J9doSn5wRG8",
+    "https://www.youtube.com/shorts/M0pbZNqgvJ4",
+    "videos/v16.mp4"
+  ]
 };
 
 /* ----- FAQ (questions fréquentes) -----
