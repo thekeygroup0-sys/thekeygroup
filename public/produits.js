@@ -7557,6 +7557,80 @@ window.PRODUITS = [
       "images/lots/wg001.jpg#18/20",
       "images/lots/wg001.jpg#19/20"
     ]
+  },
+  {
+    "id": "pd248f53",
+    "nom": "Changan HUNTER hybride 2026",
+    "badge": "Neuf",
+    "resume": "Neuf",
+    "image": "images/lots/dt01.jpg#0/2",
+    "images": [],
+    "lienPaiement": "",
+    "categorie": "voitures",
+    "marque": "",
+    "prix": "12 900 000",
+    "prixDollar": "22 700",
+    "etat": "neuf",
+    "description": "Changan HUNTER hybride 2026",
+    "caracteristiques": {},
+    "galerie": [
+      "images/lots/dg001.jpg#0/12",
+      "images/lots/dg001.jpg#1/12",
+      "images/lots/dg001.jpg#2/12",
+      "images/lots/dg001.jpg#3/12"
+    ]
+  },
+  {
+    "id": "pd6add76",
+    "nom": "Geely Galaxy M9 2026 210km AWD Heijin Zhiyao Edition",
+    "badge": "Neuf",
+    "resume": "Neuf",
+    "image": "images/lots/dt01.jpg#1/2",
+    "images": [],
+    "lienPaiement": "",
+    "categorie": "voitures",
+    "marque": "",
+    "prix": "",
+    "prixDollar": "",
+    "etat": "neuf",
+    "description": "Geely Galaxy M9 2026 210km AWD Heijin Zhiyao Edition\n· Kilométrage : 0 km\n· Motorisation : Hybride rechargeable (PHEV) – trois moteurs électriques\n· Puissance/couple système : 870 ch (640 kW) / 1 165 Nm (moteur essence 163 ch / 255 Nm + moteurs électriques 707 ch / 910 Nm)\n· Moteur essence : 1.5L turbo (BHE15-CFZ) – 163 ch / 255 Nm\n· Moteurs électriques : 707 ch / 910 Nm (avant 180 kW, arrière 340 kW/560 Nm)\n· Boîte : DHT 3 rapports\n· Traction : Intégrale (AWD) – électrique\n· Consommation mixte WLTC : 0,63 L/100 km – électrique : 22,9 kWh/100 km\n· Vitesse max : 210 km/h\n· 0-100 km/h : 4,5 s\n· Dimensions : 5 205 x 1 999 x 1 800 mm\n· Empattement : 3 030 mm\n· Places : 6 (disposition 2+2+2)\n· Suspensions : AV Double triangulation / AR Multibras – air suspendu (double chambre) + adaptable (soft/hard)\n· Freins : AV ventilés / AR ventilés – EPB\n· Pneus : 265/45 R21\n· Roue de secours : Non prévue\n· Sécurité : ABS, EBD, EBA, TCS, ESP, airbags frontaux (conducteur/passager), latéraux (AV/AR), rideaux, airbag central avant, TPMS (affichage), avertisseur ceinture, Isofix, freinage actif, alerte collision (avant/arrière/latérale), alerte ouverture porte (DOW), alerte trafic transversal arrière, alerte franchissement de ligne, assistance au maintien de voie, maintien centré, reconnaissance panneaux, détection de fatigue, détection présence enfants\n· Aides à la conduite : Radars AV/AR, caméra 360° + transparente, régulateur adaptatif (ACC), L2, stationnement automatique, aide au démarrage en côte, descente, Auto Hold, changement de voie automatique, guidage autoroutier/urbain, mémoire de stationnement\n· Système ADAS : Qianli Haohan H7 – Puce NVIDIA DRIVE Thor U (700 TOPS)\n· Technologies : Écran central 30\" (6K), GPS, Flyme Link, Hicar, Carlink, CarPlay, Bluetooth, OTA, 5G, reconnaissance vocale (6 zones), USB (2 AV, 4 AR, 60W/27W),音响 premium (option 27 HP, 9.1.6, 2300W), système Flyme Auto, puce Snapdragon 8295\n· Confort : Toit panoramique fixe (segmenté), sellerie cuir, sièges zéro gravité, volant cuir multifonction (chauffant), réglages électriques (1er, 2e et 3e rang), sièges avant (chauffage, ventilation, mémoire, massage), sièges arrière (chauffage, ventilation, massage), sièges 3e rang (chauffage), jantes alliage 21\", écran numérique 12,66\", HUD + AR-HUD, hayon électrique, accès sans clé, démarrage bouton, climatisation automatique (3 zones), bouches AR, rétroviseurs électriques (réglage, chauffage, repli auto, mémoire, inclinaison auto), caméra embarquée, chargeur mobile sans fil (50W), réfrigérateur, purificateur d'air, ioniseur, AQS, ETC intégré\n· Éclairage : LED (feux de jour, feux avant, éclairage automatique, adaptatif), éclairage d'ambiance 256 couleurs\n· Jantes : Alliage 21\"",
+    "caracteristiques": {
+      "Kilométrage": "0 km",
+      "Motorisation": "Hybride rechargeable (PHEV) – trois moteurs électriques",
+      "Puissance/couple système": "870 ch (640 kW) / 1 165 Nm (moteur essence 163 ch / 255 Nm + moteurs électriques 707 ch / 910 Nm)",
+      "Moteur essence": "1.5L turbo (BHE15-CFZ) – 163 ch / 255 Nm",
+      "Moteurs électriques": "707 ch / 910 Nm (avant 180 kW, arrière 340 kW/560 Nm)",
+      "Boîte": "DHT 3 rapports",
+      "Traction": "Intégrale (AWD) – électrique",
+      "Consommation mixte wltc": "0,63 L/100 km – électrique : 22,9 kWh/100 km",
+      "Vitesse max": "210 km/h",
+      "0-100 km/h": "4,5 s",
+      "Dimensions": "5 205 x 1 999 x 1 800 mm",
+      "Empattement": "3 030 mm",
+      "Places": "6 (disposition 2+2+2)",
+      "Suspensions": "AV Double triangulation / AR Multibras – air suspendu (double chambre) + adaptable (soft/hard)",
+      "Freins": "AV ventilés / AR ventilés – EPB",
+      "Pneus": "265/45 R21",
+      "Roue de secours": "Non prévue",
+      "Système adas": "Qianli Haohan H7 – Puce NVIDIA DRIVE Thor U (700 TOPS)",
+      "Éclairage": "LED (feux de jour, feux avant, éclairage automatique, adaptatif), éclairage d'ambiance 256 couleurs",
+      "Jantes": "Alliage 21\"",
+      "Énergie": "Essence (92#) + électrique",
+      "Réservoir": "60 L",
+      "Coffre": "328 – 2 171 L",
+      "Ptac": "3 030 kg",
+      "Poids à vide": "2 530 kg"
+    },
+    "galerie": [
+      "images/lots/dg001.jpg#4/12",
+      "images/lots/dg001.jpg#5/12",
+      "images/lots/dg001.jpg#6/12",
+      "images/lots/dg001.jpg#7/12",
+      "images/lots/dg001.jpg#8/12",
+      "images/lots/dg001.jpg#9/12",
+      "images/lots/dg001.jpg#10/12",
+      "images/lots/dg001.jpg#11/12"
+    ]
   }
 ];
 
