@@ -831,14 +831,27 @@
         (!d && !q ? configHtml() : '') : '') +
       (c && !q && !d && VID_CAT[c.id] ? grilleVideos(VID_CAT[c.id], c.id === 'machines' ? 'Nos engins en action' : 'Vidéos') : '') +
       (/^(modifications|representants|retours|dechargements|presentation)$/.test(d || '') ? '' : (marques.length > 1 ? '<div class="filtres"><label for="f-marque">Marque</label><select id="f-marque"><option value="">Toutes</option>' + marques.map(function (m) { return '<option>' + esc(m) + '</option>'; }).join('') + '</select></div>' : '') +
-      '<div class="grille" id="grille-cat">' + (liste.length ? liste.map(carteProduit).join('') : vide || (sp ? '<div class="vide vide-cmd"><b>Ce secteur arrive bientôt en ligne.</b> Nous importons déjà sur commande : <a class="lien-vert" href="' + esc(wa('Bonjour ' + (S.nom || '') + ', je cherche des produits du secteur ' + sp.nom + '.')) + '" target="_blank" rel="noopener">dites-nous ce que vous cherchez sur WhatsApp</a>.</div>' : '') || '<div class="vide">Aucun produit trouvé. <a class="lien-vert" href="' + esc(wa('Bonjour, je cherche : ' + (params.get('q') || ''))) + '" target="_blank" rel="noopener">Demandez-nous sur WhatsApp</a>, nous pouvons le faire venir.</div>') + '</div>') + '</section>';
+      '<div class="grille" id="grille-cat">' + (liste.length ? pageCartes(liste) : vide || (sp ? '<div class="vide vide-cmd"><b>Ce secteur arrive bientôt en ligne.</b> Nous importons déjà sur commande : <a class="lien-vert" href="' + esc(wa('Bonjour ' + (S.nom || '') + ', je cherche des produits du secteur ' + sp.nom + '.')) + '" target="_blank" rel="noopener">dites-nous ce que vous cherchez sur WhatsApp</a>.</div>' : '') || '<div class="vide">Aucun produit trouvé. <a class="lien-vert" href="' + esc(wa('Bonjour, je cherche : ' + (params.get('q') || ''))) + '" target="_blank" rel="noopener">Demandez-nous sur WhatsApp</a>, nous pouvons le faire venir.</div>') + '</div>') + '</section>';
   }
+  // affichage par pages : 48 articles, puis « Voir plus » (le site reste rapide même avec des milliers d'articles)
+  var PAS = 48;
+  function pageCartes(l, debut) {
+    debut = debut || 0; window.__pageListe = l;
+    var fin = Math.min(l.length, debut + PAS);
+    return l.slice(debut, fin).map(carteProduit).join('') + (fin < l.length ? '<div class="voir-plus-zone" style="grid-column:1/-1;text-align:center;margin:18px 0"><button type="button" class="btn voir-plus" data-suite="' + fin + '">Voir plus (' + (l.length - fin) + ' autres)</button></div>' : '');
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.voir-plus'); if (!b) return;
+    var z = b.parentNode, n = +b.getAttribute('data-suite');
+    z.insertAdjacentHTML('beforebegin', ''); var tmp = document.createElement('div'); tmp.innerHTML = pageCartes(window.__pageListe || [], n);
+    var g = z.parentNode; z.remove(); while (tmp.firstChild) g.appendChild(tmp.firstChild);
+  });
   function brancherFiltres() {
     var f = document.getElementById('f-marque');
     if (!f) return;
     f.addEventListener('change', function () {
       var l = window.__liste.filter(function (p) { return !f.value || p.marque === f.value; });
-      document.getElementById('grille-cat').innerHTML = l.map(carteProduit).join('');
+      document.getElementById('grille-cat').innerHTML = pageCartes(l);
     });
   }
 
@@ -1133,7 +1146,17 @@
   var zone = document.getElementById('contenu');
   if (page === 'accueil') { zone.innerHTML = accueil(); brancherOnglets(); brancherBureau(); }
   else if (page === 'categorie') { zone.innerHTML = categorie(); brancherFiltres(); }
-  else if (page === 'produit') { zone.innerHTML = fiche(); brancherMiniatures(); }
+  else if (page === 'produit') {
+    // articles de gros : la fiche détaillée (description, photos) est chargée à la demande pour garder le site rapide
+    var pg = null, pid = params.get('id');
+    for (var q = 0; q < PRODUITS.length; q++) if (PRODUITS[q].id === pid) pg = PRODUITS[q];
+    if (pg && pg.d != null && !pg._ok) {
+      zone.innerHTML = '<div class="vide">Chargement…</div>';
+      var sc = document.createElement('script'); sc.src = 'gros/d' + pg.d + '.js';
+      sc.onload = sc.onerror = function () { var D = (window.GROS_DETAILS || {})[pg.id]; if (D) for (var k in D) pg[k] = D[k]; pg._ok = 1; zone.innerHTML = fiche(); brancherMiniatures(); };
+      document.head.appendChild(sc);
+    } else { zone.innerHTML = fiche(); brancherMiniatures(); }
+  }
   else if (page === 'realisations') { zone.innerHTML = realisations(); }
   else if (page === 'faq') { zone.innerHTML = faqPage(); }
   else if (page === 'contact') { zone.innerHTML = contactPage(); }
