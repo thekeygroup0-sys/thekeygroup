@@ -7065,6 +7065,100 @@ window.PRODUITS = [
       "images/lots/g012.jpg#6/24",
       "images/lots/g012.jpg#7/24"
     ]
+  },
+  {
+    "id": "wa2066ab",
+    "nom": "Dongfeng Rich 6 4x4 version luxe",
+    "badge": "Neuf",
+    "resume": "Neuf",
+    "image": "images/lots/wt01.jpg#0/4",
+    "images": [],
+    "lienPaiement": "",
+    "categorie": "voitures",
+    "marque": "",
+    "prix": "11 550 000",
+    "prixDollar": "20 500",
+    "etat": "neuf",
+    "description": "",
+    "caracteristiques": {},
+    "galerie": [
+      "images/lots/wg001.jpg#0/20",
+      "images/lots/wg001.jpg#1/20",
+      "images/lots/wg001.jpg#2/20",
+      "images/lots/wg001.jpg#3/20"
+    ]
+  },
+  {
+    "id": "wa78b708",
+    "nom": "Nissan Dongfeng Rich 6 PRO 4x4 diesel manuel 2025",
+    "badge": "Neuf",
+    "resume": "Neuf",
+    "image": "images/lots/wt01.jpg#1/4",
+    "images": [],
+    "lienPaiement": "",
+    "categorie": "voitures",
+    "marque": "",
+    "prix": "10 800 000",
+    "prixDollar": "19 100",
+    "etat": "neuf",
+    "description": "Nissan dongfeng 4×4 manuel diesel RICH 6 PRO\nmodèle 2025\nKilométrage:00km",
+    "caracteristiques": {
+      "Kilométrage": "00km"
+    },
+    "galerie": [
+      "images/lots/wg001.jpg#4/20",
+      "images/lots/wg001.jpg#5/20",
+      "images/lots/wg001.jpg#6/20",
+      "images/lots/wg001.jpg#7/20"
+    ]
+  },
+  {
+    "id": "wa404d3f",
+    "nom": "Haval Menglong 2025 2.0T 4x4 Pro – 18 000 km",
+    "badge": "Occasion",
+    "resume": "Occasion",
+    "image": "images/lots/wt01.jpg#2/4",
+    "images": [],
+    "lienPaiement": "",
+    "categorie": "voitures",
+    "marque": "",
+    "prix": "14 100 000",
+    "prixDollar": "24 050",
+    "etat": "occasion",
+    "description": "Haval Menglong, modèle 2025, 2.0T, 4x4, Pro, boîte automatique",
+    "caracteristiques": {},
+    "galerie": [
+      "images/lots/wg001.jpg#8/20",
+      "images/lots/wg001.jpg#9/20",
+      "images/lots/wg001.jpg#10/20",
+      "images/lots/wg001.jpg#11/20"
+    ]
+  },
+  {
+    "id": "wadebd4f",
+    "nom": "Haval Menglong (Mighty Dragon) 2025 2.0T 4WD Ultra – 2 000 km",
+    "badge": "Occasion",
+    "resume": "Occasion",
+    "image": "images/lots/wt01.jpg#3/4",
+    "images": [],
+    "lienPaiement": "",
+    "categorie": "voitures",
+    "marque": "",
+    "prix": "15 430 000",
+    "prixDollar": "26 300",
+    "etat": "occasion",
+    "description": "",
+    "caracteristiques": {},
+    "galerie": [
+      "images/lots/wg001.jpg#12/20",
+      "images/lots/wg001.jpg#13/20",
+      "images/lots/wg001.jpg#14/20",
+      "images/lots/wg001.jpg#15/20",
+      "images/lots/wg001.jpg#16/20",
+      "images/lots/wg001.jpg#17/20",
+      "images/lots/wg001.jpg#18/20",
+      "images/lots/wg001.jpg#19/20"
+    ]
   }
 ];
 

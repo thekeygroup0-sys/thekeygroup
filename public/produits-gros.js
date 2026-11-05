@@ -19533,5 +19533,827 @@ window.PRODUITS = (window.PRODUITS || []).concat([
    "images/lots/ng039.jpg#16/23",
    "images/lots/ng039.jpg#17/23"
   ]
+ },
+ {
+  "id": "tg7788",
+  "categorie": "accessoires",
+  "nom": "Kit d’urgence voiture 13 en 1 (extincteur, gonfleur de pneus) · réf. 7788",
+  "marque": "",
+  "prix": "26000",
+  "prixDollar": "43",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "5 pièces",
+  "resume": "Dès 5 pièces · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#0/35",
+  "images": [],
+  "description": "Kit d'urgence de voiture avec extincteur, Machine de gonflage de pneu, pour réparation d'urgence et sauvetage",
+  "caracteristiques": {
+   "Référence": "7788"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#0/24",
+   "images/lots/mg001.jpg#1/24",
+   "images/lots/mg001.jpg#2/24",
+   "images/lots/mg001.jpg#3/24",
+   "images/lots/mg001.jpg#4/24"
+  ]
+ },
+ {
+  "id": "tg8277",
+  "categorie": "machines-production",
+  "nom": "Machine d’eau en sachets (pure water) · réf. 8277",
+  "marque": "",
+  "prix": "1080000",
+  "prixDollar": "1764",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#1/35",
+  "images": [],
+  "description": "Pure water machine/ Machine d’eau en sachets",
+  "caracteristiques": {
+   "Référence": "8277"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#5/24"
+  ]
+ },
+ {
+  "id": "tg8280",
+  "categorie": "transformation",
+  "nom": "Moulin en acier inoxydable · réf. 8280",
+  "marque": "",
+  "prix": "295000",
+  "prixDollar": "482",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#2/35",
+  "images": [],
+  "description": "Moulin en acier inoxydable",
+  "caracteristiques": {
+   "Référence": "8280"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#6/24",
+   "images/lots/mg001.jpg#7/24",
+   "images/lots/mg001.jpg#8/24"
+  ]
+ },
+ {
+  "id": "tg8287",
+  "categorie": "machines-production",
+  "nom": "Machine d’emballage (thé, condiments…) · réf. 8287",
+  "marque": "",
+  "prix": "580000",
+  "prixDollar": "948",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#3/35",
+  "images": [],
+  "description": "Machine d’emballage de tea, condiments…",
+  "caracteristiques": {
+   "Référence": "8287"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#9/24",
+   "images/lots/mg001.jpg#10/24"
+  ]
+ },
+ {
+  "id": "tg9051",
+  "categorie": "groupes-electrogenes",
+  "nom": "Groupe électrogène silencieux 25 / 30 / 50 kVA · réf. 9051",
+  "marque": "",
+  "prix": "",
+  "prixDollar": "",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "",
+  "resume": "Prix sur demande",
+  "image": "images/lots/mt01.jpg#4/35",
+  "images": [],
+  "description": "",
+  "caracteristiques": {
+   "Référence": "9051",
+   "Prix": "Sur demande (WhatsApp)"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#11/24"
+  ]
+ },
+ {
+  "id": "tg9058",
+  "categorie": "machines-production",
+  "nom": "Machine à blocs d’argile hydraulique semi-automatique · réf. 9058",
+  "marque": "",
+  "prix": "",
+  "prixDollar": "",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "",
+  "resume": "Prix sur demande",
+  "image": "images/lots/mt01.jpg#5/35",
+  "images": [],
+  "description": "Machine à blocs d'argile hydraulique semi-automatique électrique",
+  "caracteristiques": {
+   "Référence": "9058",
+   "Prix": "Sur demande (WhatsApp)"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#12/24",
+   "images/lots/mg001.jpg#13/24",
+   "images/lots/mg001.jpg#14/24"
+  ]
+ },
+ {
+  "id": "tg25164",
+  "categorie": "machines-production",
+  "nom": "Machine de scellage automatique · réf. 25164",
+  "marque": "",
+  "prix": "1260000",
+  "prixDollar": "2050",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#6/35",
+  "images": [],
+  "description": "Machine de scellage automatique",
+  "caracteristiques": {
+   "Référence": "25164"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#15/24"
+  ]
+ },
+ {
+  "id": "tg42280",
+  "categorie": "electromenager",
+  "nom": "Machine à laver 5,5 kg · réf. 42280",
+  "marque": "",
+  "prix": "68000",
+  "prixDollar": "113.85",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#7/35",
+  "images": [],
+  "description": "Machine à laver /5,5 kgs",
+  "caracteristiques": {
+   "Référence": "42280"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#16/24"
+  ]
+ },
+ {
+  "id": "tg42281",
+  "categorie": "electromenager",
+  "nom": "Machine à laver 8 kg · réf. 42281",
+  "marque": "",
+  "prix": "70000",
+  "prixDollar": "117.5",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#8/35",
+  "images": [],
+  "description": "Machine à laver /8 kgs",
+  "caracteristiques": {
+   "Référence": "42281"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#17/24"
+  ]
+ },
+ {
+  "id": "tg42282",
+  "categorie": "electromenager",
+  "nom": "Machine à laver 8,2 kg · réf. 42282",
+  "marque": "",
+  "prix": "83000",
+  "prixDollar": "138.95",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#9/35",
+  "images": [],
+  "description": "Machine à laver /8.2 kgs",
+  "caracteristiques": {
+   "Référence": "42282"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#18/24"
+  ]
+ },
+ {
+  "id": "tg42283",
+  "categorie": "electromenager",
+  "nom": "Machine à laver 10 kg · réf. 42283",
+  "marque": "",
+  "prix": "92000",
+  "prixDollar": "154.2",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#10/35",
+  "images": [],
+  "description": "Machine à laver /10 kgs",
+  "caracteristiques": {
+   "Référence": "42283"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#19/24"
+  ]
+ },
+ {
+  "id": "tg42284",
+  "categorie": "electromenager",
+  "nom": "Machine à laver 12 kg · réf. 42284",
+  "marque": "",
+  "prix": "99500",
+  "prixDollar": "166.7",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#11/35",
+  "images": [],
+  "description": "Machine à laver /12 kgs",
+  "caracteristiques": {
+   "Référence": "42284"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#20/24"
+  ]
+ },
+ {
+  "id": "tg42285",
+  "categorie": "electromenager",
+  "nom": "Machine à laver 15 kg · réf. 42285",
+  "marque": "",
+  "prix": "110000",
+  "prixDollar": "184.2",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#12/35",
+  "images": [],
+  "description": "Machine à laver /15kgs",
+  "caracteristiques": {
+   "Référence": "42285"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#21/24"
+  ]
+ },
+ {
+  "id": "tg42286",
+  "categorie": "electromenager",
+  "nom": "Machine à laver 15 kg (modèle 2) · réf. 42286",
+  "marque": "",
+  "prix": "100000",
+  "prixDollar": "167.5",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#13/35",
+  "images": [],
+  "description": "Machine à laver /15 kgs",
+  "caracteristiques": {
+   "Référence": "42286"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#22/24"
+  ]
+ },
+ {
+  "id": "tg42287",
+  "categorie": "electromenager",
+  "nom": "Mini machine à laver · réf. 42287",
+  "marque": "",
+  "prix": "29000",
+  "prixDollar": "48.6",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#14/35",
+  "images": [],
+  "description": "Machine à laver / Mini",
+  "caracteristiques": {
+   "Référence": "42287"
+  },
+  "galerie": [
+   "images/lots/mg001.jpg#23/24"
+  ]
+ },
+ {
+  "id": "tg42288",
+  "categorie": "electromenager",
+  "nom": "Machine à laver · réf. 42288",
+  "marque": "",
+  "prix": "125000",
+  "prixDollar": "210",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#15/35",
+  "images": [],
+  "description": "Machine à laver",
+  "caracteristiques": {
+   "Référence": "42288"
+  },
+  "galerie": [
+   "images/lots/mg002.jpg#0/24",
+   "images/lots/mg002.jpg#1/24",
+   "images/lots/mg002.jpg#2/24",
+   "images/lots/mg002.jpg#3/24"
+  ]
+ },
+ {
+  "id": "tg42292",
+  "categorie": "electromenager",
+  "nom": "Cuisinière + four · réf. 42292",
+  "marque": "",
+  "prix": "76000",
+  "prixDollar": "127.3",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#16/35",
+  "images": [],
+  "description": "Cuisinière+four",
+  "caracteristiques": {
+   "Référence": "42292"
+  },
+  "galerie": [
+   "images/lots/mg002.jpg#4/24",
+   "images/lots/mg002.jpg#5/24",
+   "images/lots/mg002.jpg#6/24",
+   "images/lots/mg002.jpg#7/24",
+   "images/lots/mg002.jpg#8/24"
+  ]
+ },
+ {
+  "id": "tg42302",
+  "categorie": "electromenager",
+  "nom": "Machine à laver grande capacité · réf. 42302",
+  "marque": "",
+  "prix": "273500",
+  "prixDollar": "458",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#17/35",
+  "images": [],
+  "description": "Machine à laver",
+  "caracteristiques": {
+   "Référence": "42302"
+  },
+  "galerie": [
+   "images/lots/mg002.jpg#9/24",
+   "images/lots/mg002.jpg#10/24",
+   "images/lots/mg002.jpg#11/24",
+   "images/lots/mg002.jpg#12/24",
+   "images/lots/mg002.jpg#13/24"
+  ]
+ },
+ {
+  "id": "tg42307",
+  "categorie": "electromenager",
+  "nom": "Machine à laver 9 kg · réf. 42307",
+  "marque": "",
+  "prix": "99600",
+  "prixDollar": "166.8",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#18/35",
+  "images": [],
+  "description": "Machine à laver /9 m kgs",
+  "caracteristiques": {
+   "Référence": "42307"
+  },
+  "galerie": [
+   "images/lots/mg002.jpg#14/24",
+   "images/lots/mg002.jpg#15/24",
+   "images/lots/mg002.jpg#16/24",
+   "images/lots/mg002.jpg#17/24",
+   "images/lots/mg002.jpg#18/24"
+  ]
+ },
+ {
+  "id": "tg43895",
+  "categorie": "tracteurs",
+  "nom": "Tracteur 50 CV · réf. 43895",
+  "marque": "",
+  "prix": "3050000",
+  "prixDollar": "5024",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#19/35",
+  "images": [],
+  "description": "Tracteur de 50 cv",
+  "caracteristiques": {
+   "Référence": "43895"
+  },
+  "galerie": [
+   "images/lots/mg002.jpg#19/24",
+   "images/lots/mg002.jpg#20/24",
+   "images/lots/mg002.jpg#21/24",
+   "images/lots/mg002.jpg#22/24",
+   "images/lots/mg002.jpg#23/24"
+  ]
+ },
+ {
+  "id": "tg84089",
+  "categorie": "bus",
+  "nom": "Bus 43+1 places 2019 rénové (occasion)",
+  "marque": "",
+  "prix": "18165000",
+  "prixDollar": "29968",
+  "badge": "Occasion",
+  "gros": false,
+  "minimum": "",
+  "resume": "Prix FOB port chinois, hors transport",
+  "image": "images/lots/mt01.jpg#20/35",
+  "images": [],
+  "description": "1.Nettoyage intérieur\n2.Nouvelle batterie\n3.Nouveau plancher\n4.Nouvelle peinture\n5.Nouveau joint de plancher\n6.Nouvelle housse de siège\n7.Nouvelle huile moteur, élément filtrant, courroie moteur ;\n8.Nouveau mastic pour vitre\n9.Révision du circuit\n10.Rénovation du compartiment à bagages/moteur\n11.Moteur, essieu, boîte de vitesses testés et retravailler\n12.Nouveaux pneus avant",
+  "caracteristiques": {
+   "Référence": "84089"
+  },
+  "prixFixe": true,
+  "etat": "occasion",
+  "galerie": [
+   "images/lots/mg003.jpg#0/20",
+   "images/lots/mg003.jpg#1/20",
+   "images/lots/mg003.jpg#2/20",
+   "images/lots/mg003.jpg#3/20",
+   "images/lots/mg003.jpg#4/20"
+  ]
+ },
+ {
+  "id": "tg98343",
+  "categorie": "bus",
+  "nom": "Bus Yutong 43+1 places 2012 rénové (occasion)",
+  "marque": "Yutong",
+  "prix": "11935000",
+  "prixDollar": "19600",
+  "badge": "Occasion",
+  "gros": false,
+  "minimum": "",
+  "resume": "Prix FOB port chinois, hors transport",
+  "image": "images/lots/mt01.jpg#21/35",
+  "images": [],
+  "description": "1.Nettoyage intérieur\n2.Nouvelle batterie\n3.Nouveau plancher\n4.Nouvelle peinture\n5.Nouveau joint de plancher\n6.Nouvelle housse de siège\n7.Nouvelle huile moteur, élément filtrant, courroie moteur ;\n8.Nouveau mastic pour vitre\n9.Révision du circuit\n10.Rénovation du compartiment à bagages/moteur\n11.Moteur, essieu, boîte de vitesses testés et retravailler\n12.Nouveaux pneus avant",
+  "caracteristiques": {
+   "Référence": "98343"
+  },
+  "prixFixe": true,
+  "etat": "occasion",
+  "galerie": [
+   "images/lots/mg003.jpg#5/20",
+   "images/lots/mg003.jpg#6/20",
+   "images/lots/mg003.jpg#7/20",
+   "images/lots/mg003.jpg#8/20",
+   "images/lots/mg003.jpg#9/20"
+  ]
+ },
+ {
+  "id": "tg147914",
+  "categorie": "electromenager",
+  "nom": "Machines à jus (4 modèles) · réf. 147914",
+  "marque": "",
+  "prix": "7900",
+  "prixDollar": "14.2",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "6 pièces",
+  "resume": "Dès 6 pièces · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#22/35",
+  "images": [],
+  "description": "Machine à jus 4 en 1\nMachine à jus métallique 4 en 1\nGrand jusier rouge",
+  "caracteristiques": {
+   "Référence": "147914"
+  },
+  "galerie": [
+   "images/lots/mg003.jpg#10/20",
+   "images/lots/mg003.jpg#11/20",
+   "images/lots/mg003.jpg#12/20",
+   "images/lots/mg003.jpg#13/20",
+   "images/lots/mg003.jpg#14/20"
+  ]
+ },
+ {
+  "id": "tg147922",
+  "categorie": "electromenager",
+  "nom": "Machine à hacher 6 L / 12 L · réf. 147922",
+  "marque": "",
+  "prix": "8600",
+  "prixDollar": "15.3",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "6 pièces",
+  "resume": "Dès 6 pièces · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#23/35",
+  "images": [],
+  "description": "Normes britannique\nMoteur en cuivre pur\nNormes européennes ( Moteur en cuivre pur)",
+  "caracteristiques": {
+   "Référence": "147922"
+  },
+  "galerie": [
+   "images/lots/mg003.jpg#15/20",
+   "images/lots/mg003.jpg#16/20",
+   "images/lots/mg003.jpg#17/20",
+   "images/lots/mg003.jpg#18/20",
+   "images/lots/mg003.jpg#19/20"
+  ]
+ },
+ {
+  "id": "tg151031",
+  "categorie": "beaute",
+  "nom": "Sèche-cheveux de salon à air rapide · réf. 151031",
+  "marque": "",
+  "prix": "26500",
+  "prixDollar": "47",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "3 pièces",
+  "resume": "Dès 3 pièces · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#24/35",
+  "images": [],
+  "description": "SÈCHE CHEVEUX DE SALON MACHINE À AIR RAPIDE / HAIR DRYER",
+  "caracteristiques": {
+   "Référence": "151031"
+  },
+  "galerie": [
+   "images/lots/mg004.jpg#0/21",
+   "images/lots/mg004.jpg#1/21",
+   "images/lots/mg004.jpg#2/21",
+   "images/lots/mg004.jpg#3/21",
+   "images/lots/mg004.jpg#4/21"
+  ]
+ },
+ {
+  "id": "tg151044",
+  "categorie": "beaute",
+  "nom": "Bac à shampoing de salon · réf. 151044",
+  "marque": "",
+  "prix": "12100",
+  "prixDollar": "21.6",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "3 pièces",
+  "resume": "Dès 3 pièces · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#25/35",
+  "images": [],
+  "description": "3pcs",
+  "caracteristiques": {
+   "Référence": "151044"
+  },
+  "galerie": [
+   "images/lots/mg004.jpg#5/21",
+   "images/lots/mg004.jpg#6/21",
+   "images/lots/mg004.jpg#7/21",
+   "images/lots/mg004.jpg#8/21",
+   "images/lots/mg004.jpg#9/21"
+  ]
+ },
+ {
+  "id": "tg160590",
+  "categorie": "machines-production",
+  "nom": "Machine à pop-corn · réf. 160590",
+  "marque": "",
+  "prix": "",
+  "prixDollar": "",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "",
+  "resume": "Prix sur demande",
+  "image": "images/lots/mt01.jpg#26/35",
+  "images": [],
+  "description": "PHOTO RÉELLE",
+  "caracteristiques": {
+   "Référence": "160590",
+   "Prix": "Sur demande (WhatsApp)"
+  },
+  "galerie": [
+   "images/lots/mg004.jpg#10/21"
+  ]
+ },
+ {
+  "id": "tg173496",
+  "categorie": "electromenager",
+  "nom": "Presse-jus RAF · réf. 173496",
+  "marque": "",
+  "prix": "26300",
+  "prixDollar": "47.76",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "4 pièces",
+  "resume": "Dès 4 pièces · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#27/35",
+  "images": [],
+  "description": "Marque :RAF",
+  "caracteristiques": {
+   "Référence": "173496"
+  },
+  "galerie": [
+   "images/lots/mg004.jpg#11/21",
+   "images/lots/mg004.jpg#12/21",
+   "images/lots/mg004.jpg#13/21",
+   "images/lots/mg004.jpg#14/21",
+   "images/lots/mg004.jpg#15/21"
+  ]
+ },
+ {
+  "id": "tg173526",
+  "categorie": "electromenager",
+  "nom": "Mini four électrique RAF · réf. 173526",
+  "marque": "",
+  "prix": "19600",
+  "prixDollar": "35.74",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "4 pièces",
+  "resume": "Dès 4 pièces · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#28/35",
+  "images": [],
+  "description": "Marque :RAF",
+  "caracteristiques": {
+   "Référence": "173526"
+  },
+  "galerie": [
+   "images/lots/mg004.jpg#16/21",
+   "images/lots/mg004.jpg#17/21",
+   "images/lots/mg004.jpg#18/21",
+   "images/lots/mg004.jpg#19/21",
+   "images/lots/mg004.jpg#20/21"
+  ]
+ },
+ {
+  "id": "tg175157",
+  "categorie": "electromenager",
+  "nom": "Four à pizza / barbecue en acier inoxydable · réf. 175157",
+  "marque": "",
+  "prix": "63700",
+  "prixDollar": "114.5",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#29/35",
+  "images": [],
+  "description": "1 pcs",
+  "caracteristiques": {
+   "Référence": "175157"
+  },
+  "galerie": [
+   "images/lots/mg005.jpg#0/21",
+   "images/lots/mg005.jpg#1/21",
+   "images/lots/mg005.jpg#2/21",
+   "images/lots/mg005.jpg#3/21"
+  ]
+ },
+ {
+  "id": "tg180750",
+  "categorie": "transformation",
+  "nom": "Broyeur professionnel Modèle 50 (beurre d’arachide, purées…) · réf. 180750",
+  "marque": "",
+  "prix": "520000",
+  "prixDollar": "923",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#30/35",
+  "images": [],
+  "description": "Usage : broyage humide (alimentaire, chimie, cosmétique)\nExemples : beurre / pâte d’arachide, purée de tomate, purée de fruits, pâte de piment, poisson congelé, lait de soja\nCapacité : 5 à 300 kg/h (0,3 t/h)\nFinesse sortie : 2 à 50 µm\nTempérature alimentation : 0 à 150 °C\nMoteur : 220V/1,5 kW ou 380V/4 kW – version séparée\nVitesse : 2800 tr/min\nMatériau contact produit : inox 420\nRefroidissement : oui\nDurée continue : illimitée si roulements < 70 °C\nPoids : 60 kg\nCbm : 0,13 m³",
+  "caracteristiques": {
+   "Référence": "180750"
+  },
+  "galerie": [
+   "images/lots/mg005.jpg#4/21",
+   "images/lots/mg005.jpg#5/21",
+   "images/lots/mg005.jpg#6/21",
+   "images/lots/mg005.jpg#7/21"
+  ]
+ },
+ {
+  "id": "tg181365",
+  "categorie": "electromenager",
+  "nom": "Cuisinière à gaz 4 feux + four – 50 cm · réf. 181365",
+  "marque": "",
+  "prix": "59900",
+  "prixDollar": "107",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#31/35",
+  "images": [],
+  "description": "⚠️ tarif indicatif hors transport et taxe\nCaractéristiques techniques\nCuisinière gaz autoportante + four\nLargeur 50 cm – 4 feux gaz\nPuissance des feux : grand + moyen + moyen + petit\nGaz liquéfié – allumage élec. 220V (Europe)\nDimensions produit : 50 × largeur × H820 mm (env.)\nDélai : 2–11 jours\nGaranties : retard remboursé – casse remboursée",
+  "caracteristiques": {
+   "Référence": "181365"
+  },
+  "galerie": [
+   "images/lots/mg005.jpg#8/21",
+   "images/lots/mg005.jpg#9/21",
+   "images/lots/mg005.jpg#10/21",
+   "images/lots/mg005.jpg#11/21"
+  ]
+ },
+ {
+  "id": "tg181369",
+  "categorie": "electromenager",
+  "nom": "Cuisinière 3 feux gaz + 1 plaque électrique + four – 50 cm · réf. 181369",
+  "marque": "",
+  "prix": "59000",
+  "prixDollar": "105",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#32/35",
+  "images": [],
+  "description": "⚠️ tarif indicatif hors transport et taxe\nCaractéristiques techniques\nCuisinière autoportante – gaz + électrique + four\nLargeur 50 cm – 3 feux gaz + 1 plaque électrique\nPlan de travail : inox\nFour 50L – allumage électrique 220V (Europe)\nDimensions produit : 50 × 55 × 82 cm\nDimensions emballage : 50,5 × 57,5 × 84 cm (0,244 Cbm)\nPoids : 23 kg (net) – 23 kg (brut)\nDélai : 2–11 jours",
+  "caracteristiques": {
+   "Référence": "181369"
+  },
+  "galerie": [
+   "images/lots/mg005.jpg#12/21",
+   "images/lots/mg005.jpg#13/21",
+   "images/lots/mg005.jpg#14/21",
+   "images/lots/mg005.jpg#15/21",
+   "images/lots/mg005.jpg#16/21"
+  ]
+ },
+ {
+  "id": "tg181374",
+  "categorie": "electromenager",
+  "nom": "Cuisinière à gaz 6 feux + four – 90 cm · réf. 181374",
+  "marque": "",
+  "prix": "165000",
+  "prixDollar": "292",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#33/35",
+  "images": [],
+  "description": "⚠️ tarif indicatif hors transport et taxe\nCaractéristiques techniques\nCuisinière gaz autoportante + four\nLargeur 90 cm – 6 feux gaz\nGaz liquéfié (LPG) – 220-230V / 50Hz\nAllumage :脉冲 (impulsion) – prise anglaise (UK plug)\nPlan de travail : inox 430# brillant\nCouvercle : verre trempé traité miroir\nBrûleurs : laiton jaune renforcé (120mm ×1 / 90mm ×2 / 60mm ×3)\nFour :\nFour avec flamme inférieure\nTournebroche (rotisserie) + lampe\nGrille + lèchefrite\nTiroir de rangement\n📦 Dimensions & poids :",
+  "caracteristiques": {
+   "Référence": "181374"
+  },
+  "galerie": [
+   "images/lots/mg005.jpg#17/21",
+   "images/lots/mg005.jpg#18/21",
+   "images/lots/mg005.jpg#19/21",
+   "images/lots/mg005.jpg#20/21"
+  ]
+ },
+ {
+  "id": "tg181962",
+  "categorie": "machines-production",
+  "nom": "Pack Pro imprimante DTF A3 + presse à chaud · réf. 181962",
+  "marque": "",
+  "prix": "1200000",
+  "prixDollar": "2140",
+  "badge": "Prix de gros",
+  "gros": true,
+  "minimum": "1 pièce",
+  "resume": "Dès 1 pièce · Prix de gros à l’unité",
+  "image": "images/lots/mt01.jpg#34/35",
+  "images": [],
+  "description": "Type : petite imprimante DTF (blanc) pour vêtements, t-shirts, sweats, casquettes, cuir, tissu\nLargeur d’impression : A3 (environ 30 cm)",
+  "caracteristiques": {
+   "Référence": "181962"
+  },
+  "galerie": [
+   "images/lots/mg006.jpg#0/5",
+   "images/lots/mg006.jpg#1/5",
+   "images/lots/mg006.jpg#2/5",
+   "images/lots/mg006.jpg#3/5",
+   "images/lots/mg006.jpg#4/5"
+  ]
  }
 ]);
